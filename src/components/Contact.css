@@ -1,0 +1,35 @@
+.contact-list {
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  margin: 1.2em 0 0.5em 0;
+}
+
+.contact-list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0 1px 6px #0002;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.contact-list img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 16px var(--accent2);
+}
+
+.contact-info {
+  margin-top: 1em;
+  color: #b0c4d4;
+  font-size: 1em;
+}
+
+.contact-info a {
+  color: var(--accent2);
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+} 

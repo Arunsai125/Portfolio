@@ -1,0 +1,90 @@
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.skills-group {
+  margin-bottom: 0.5em;
+}
+
+.skills-group-label {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #a18cd1;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+.skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+}
+
+.skill-chip {
+  background: linear-gradient(135deg, #232a36 60%, var(--accent2) 100%);
+  color: #eaf6fb;
+  border-radius: 8px;
+  padding: 0.45em 1.1em;
+  font-size: 1em;
+  font-weight: 500;
+  box-shadow: 0 1px 6px #0002;
+  border: 1px solid var(--border);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  cursor: default;
+  letter-spacing: 0.2px;
+}
+.skill-chip:hover {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff;
+  transform: scale(1.07);
+}
+
+.skills-chips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.skill-chip-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px #0001;
+  padding: 0.7em 1.2em 0.5em 1.2em;
+  min-width: 90px;
+  max-width: 110px;
+  min-height: 90px;
+  justify-content: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.skill-chip-logo:hover {
+  box-shadow: 0 4px 16px #a18cd1aa;
+  transform: translateY(-4px) scale(1.05);
+}
+
+.skill-logo {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0.5em;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-size: 0.98em;
+  color: #232a36;
+  font-weight: 600;
+  text-align: center;
+  word-break: break-word;
+}
+
+@media (max-width: 700px) {
+  .skills-chips {
+    gap: 0.4em;
+  }
+} 
