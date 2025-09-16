@@ -2,6 +2,21 @@ import './Experience.css';
 
 const experiences = [
   {
+    title: 'Software Developer',
+    company: 'Temenos',
+    location: 'Orlando, Florida, USA',
+    date: 'June 2025 – Present',
+    bullets: [
+  'Developed a React and Node.js based web application with secure login and project dashboard to enable AI-powered documentation updates and automated pull request workflows.',
+  'Integrated Azure AI Foundry agents to fetch documentation files, analyze user inputs, and suggest line-level changes to ensure accurate and efficient updates.',
+  'Implemented a Generation Screen allowing users to input Jira links, GitLab repo details, attachments, and descriptions, triggering automated commit and PR creation in two documentation repositories.',
+  'Built a TypeScript backend to orchestrate file retrieval, AI recommendations, and PR creation, ensuring seamless synchronization between development and documentation workflows.',
+  'Designed and executed unit and integration testing using Vitest and Jest to validate AI suggestions, PR generation, and dashboard functionality.',
+  'Automated documentation updates, significantly reducing manual effort and accelerating review cycles for developers and technical writers.',
+  'Collaborated with developers and stakeholders to refine requirements, improve UX, and ensure smooth integration between code repos, documentation repos, and Jira tickets.'
+],
+  },
+  {
     title: 'Software Development Engineer - I',
     company: 'MassMutual GCC',
     location: 'Telangana, India',
