@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="hero card">
       <div className="hero-img-wrapper">
-        <img src="/dp.jpg" alt="Arun Sai Narla" className="hero-img" />
+        <img src={`${import.meta.env.BASE_URL}dp.jpg`} alt="Arun Sai Narla" className="hero-img" />
       </div>
       <div className="hero-icons">
         {links.map(link => (
