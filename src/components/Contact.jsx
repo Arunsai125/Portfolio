@@ -11,7 +11,7 @@ export default function Contact() {
         <a href="tel:+13864568079" title="Phone">
           <img src="https://img.icons8.com/fluency/48/000000/phone.png" alt="Phone" />
         </a>
-        <a href="https://www.linkedin.com/in/arun-sai-narla-54a976348/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/arun-sai-narla-54a976348" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" />
         </a>
         <a href="https://github.com/ArunSaiNarla" target="_blank" rel="noopener noreferrer" title="GitHub">
