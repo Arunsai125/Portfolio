@@ -26,7 +26,7 @@ To be deployed soon!
    ```sh
    npm run dev
    ```
-   The app will be available at [http://localhost:5173](http://localhost:5173).
+   The app will be available at [https://arunsai125.github.io/Portfolio/](https://arunsai125.github.io/Portfolio/).
 
 ## 📝 Customization
 - Update your profile image by replacing `public/dp.jpg`.
