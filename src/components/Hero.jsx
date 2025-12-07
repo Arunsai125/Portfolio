@@ -27,7 +27,6 @@ export default function Hero() {
       <div className="hero-subtitle">
         Software Development Engineer @ Temenos<br/>
         UCF '25 ALUMNI | Ex- Vice President of GSA @ UCF
-        <span style={{display: 'block', marginTop: '0.5em', fontSize: '0.9em', opacity: 0.7}}>✨ Auto-deployed via GitHub Actions</span>
       </div>
     </section>
   );
