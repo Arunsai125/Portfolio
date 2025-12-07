@@ -18,6 +18,21 @@ const experiences = [
   },
   {
     title: 'Software Development Engineer - I',
+    company: 'Temenos',
+    location: 'Orlando, Florida',
+    date: 'June 2025 – Present',
+    bullets: [
+      'Built Temenos Documate with secure login & dashboards to automate documentation updates & pull request workflows using React and Node.js',
+      'Integrated Azure AI Foundry Agents to fetch docs, analyze inputs, and generate line-level change suggestions.',
+      'Developed a TypeScript backend with MongoDB to orchestrate file retrieval, AI recommendations, and automated PR creation.',
+      'Implemented a Generation Screen linking Jira and GitLab repos, enabling automated commits and PRs in multiple documentation repos.',
+      'Designed and executed unit/integration tests with Vitest and Jest to validate AI outputs and workflow reliability.',
+      'Automated documentation pipelines, cutting manual update effort and review cycle time for developers and writers.',
+      'Partnered with stakeholders to refine requirements, enhance UX, and align integrations across code and documentation.'
+    ],
+  },
+  {
+    title: 'Technology Analyst',
     company: 'MassMutual GCC',
     location: 'Telangana, India',
     date: 'January 2022 – July 2023',

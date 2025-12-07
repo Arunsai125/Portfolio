@@ -1,0 +1,25 @@
+.about {
+  position: relative;
+}
+
+.about p {
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #d0d8e0;
+  margin-bottom: 1.2em;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+.about p::first-letter {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #a18cd1;
+  line-height: 1;
+  margin-right: 2px;
+}
+
