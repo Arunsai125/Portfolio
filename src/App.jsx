@@ -18,7 +18,7 @@ function App() {
       <section id="projects"><Projects /></section>
       <section id="experience"><Experience /></section>
       <section id="get-in-touch"><GetInTouch /></section>
-       <section id="contact"><Contact /></section> 
+      <section id="contact"><Contact /></section> 
     </div>
   )
 }

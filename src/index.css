@@ -72,6 +72,9 @@ button:focus-visible {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  padding-top: calc(2rem + 120px);
+  position: relative;
+  z-index: 1;
 }
 
 /* Add scroll margin to all sections to account for fixed navbar */
